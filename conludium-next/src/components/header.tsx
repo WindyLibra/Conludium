@@ -1,7 +1,9 @@
+import '@/globals.css'
+
 export default function Header() {
     return (
-        <nav className="">
-            <ul>
+        <nav className="text-center">
+            <ul className="">
                 <li>
                     <a href="/">Home</a>
                 </li>
